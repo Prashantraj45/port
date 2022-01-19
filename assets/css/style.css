@@ -477,7 +477,7 @@ Section
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .section-bg {
@@ -1261,11 +1261,18 @@ section {
   color: #34b7a7;
 }
 .main{
-  float: left;
-  padding-top: 120px;
-  margin: 0px;
-  height: 800px;
-  width: 600px;
+  margin: 0 auto;
+  padding-top: 5px;
+  height: 700px;
+  width:auto;
+  flex-basis: 33%;
+  padding: 50px;
+}
+@media (max-width:767px){
+  .main{
+    padding: 20px;
+    height: 600px;
+  }
 }
 .row{
   margin-bottom: 25px;
